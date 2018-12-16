@@ -12,10 +12,10 @@
   &.card {
     background-color: rgb(253, 253, 253);
   }
-  
-  a {
-    text-decoration: none;
+
+  .card-link {
     color: #333;
+    text-decoration: none;
 
     &:hover {
       color: #333;
