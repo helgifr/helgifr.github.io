@@ -1,12 +1,45 @@
-<h1>Síðurnar mínar</h1>
-<ul>
-  <li>
-    <a href="./umsoknarferli">Síða sem geymir umsóknir og hægt er að skoða diagram af umsóknunum.</a>
-  </li>
-  <li>
-    <a href="./biomyndir">Myndir sem sýndar eru í íslenskum bíóhúsum</a>
-  </li>
-  <li>
-    <a href="https://protected-peak-20071.herokuapp.com">Síða sem geymir bækur og notendur. Hægt er að skrá bækur og meta þær.</a>
-  </li>
-</ul>
+<!doctype html>
+<html class="grid" lang="is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Heimasíða mín</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+      <h1>Síðurnar mínar</h1>
+      <ul class="sites">
+        <li class="site card">
+          <a href="./umsoknarferli">
+            <img class="card-img-top" src="public/umsokarferli-sida.PNG" alt="Mynd af Umsóknarferlasíðunni">
+            <div class="card-body">
+              <h5 class="card-title">Umsóknarferilsíðan</h5>
+              <p class="card-text">Síða sem geymir umsóknir og hægt er að skoða diagram af umsóknunum.</p>
+            </div>
+          </a>
+        </li>
+        <li class="site card">
+          <a href="./biomyndir">
+            <img class="card-img-top" src="public/biomyndir-sida.PNG" alt="Mynd af Bíómyndarsíðunni">
+            <div class="card-body">
+              <h5 class="card-title">Bíómyndarsíðan</h5>
+              <p class="card-text">Síða þar sem hægt er að skoða myndir sem sýndar eru í íslenskum bíóhúsum. Hægt er að sía myndir eftir bíóhúsum.</p>
+            </div>
+          </a>
+        </li>
+        <li class="site card">
+          <a href="https://protected-peak-20071.herokuapp.com">
+          <img class="card-img-top" src="public/bokasafnid-sida.PNG" alt="Mynd af bókasafn síðunni">
+          <div class="card-body">
+            <h5 class="card-title">Bókasafnssíðan</h5>
+            <p class="card-text">Síða sem geymir bækur og notendur. Hægt er að skrá bækur og meta þær.</p>
+          </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <script src="script-compiled.js"></script>
+  </body>
+</html>

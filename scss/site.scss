@@ -1,0 +1,28 @@
+.sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.site {
+  max-width: 500px;
+  margin-bottom: 1rem;
+
+  &.card {
+    background-color: rgb(253, 253, 253);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+      color: #333;
+    }
+  }
+
+  .card-img-top {
+    border-bottom: 1px solid #ddd;
+  }
+}
